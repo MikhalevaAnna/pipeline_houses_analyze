@@ -3,7 +3,6 @@
 Есть csv файл, расположенный по ссылке. Скачивайте по ссылке: https://disk.yandex.ru/d/PBWn9vwv_xSk8A <br>
 Размер распакованного файла около 300 Мб. Количество строк - 590708 строк.
 
-house_id,latitude,longitude,maintenance_year,square,population,region,locality_name,address,full_address,communal_service_id,description
 ## Данные в файле:
 **house_id** - `ID объекта` - (например, 590707) <br>
 **latitude**, **longitude** - `Координаты` - (Широта, Долгота) (например, 55.060199, 32.695577) <br>
