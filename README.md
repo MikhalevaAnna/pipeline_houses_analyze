@@ -38,3 +38,26 @@
 10. Загрузим обработанные данные из **DataFrame** в таблицу в **ClickHouse** в **airflow**. <br>
 
 11. Выполним **SQL** скрипт в **Python**, который выведет топ 25 домов, у которых площадь больше 60 кв.м в **airflow**. <br>
+
+Все операции по созданию таблиц, обработке, миграции данных происходят внутри **Airflow**.
+
+
+### Просмотр данных через DBeaver:
+В **DBeaver**, после успешной работы пайплайна, можно посмотреть полученные таблицы `houses_data` в **ClickHouse**.
+
+```
+#### Для подключение к **ClickHouse** используются следующие параметры:
+```
+    Хост: localhost
+    Порт: 8123
+```
+#### Команды для запуска проекта:
+```bash
+    git clone https://github.com/MikhalevaAnna/pipeline_houses_analyze.git
+    cd pipeline_houses_analyze
+    docker build -t airflow-with-java .
+    docker-compose up --build
+```
+    
+- Далее идем по адресу - **http://localhost:8080**
+- Логин и пароль - **airflow**.
