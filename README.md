@@ -58,7 +58,7 @@
 ```bash
     git clone https://github.com/MikhalevaAnna/pipeline_houses_analyze.git
     cd pipeline_houses_analyze
-    docker build -t airflow-with-java .
+    docker build -t airflow-with-java-c .
     docker-compose up --build
 ```
     
